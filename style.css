@@ -91,9 +91,33 @@
 
 .p-info {
     border-style: dashed;
-    border-color: rgb(128, 62, 117);
+    border-color: orange;
     height: 297px;
     width: 35%;
+}
+
+.slide1-info1 {
+    border-style: dashed;
+    border-color: black;
+    height: 40%;
+}
+
+.free-trial {
+    border-style: dashed;
+    border-color: black;
+    height: 15%;
+}
+
+.slide1-info2 {
+    border-style: dashed;
+    border-color: black;
+    height: 15%;
+}
+
+.row {
+    border-style: dashed;
+    border-color: black;
+    height: 30%;
 }
 
 .jumbo-img {
@@ -112,4 +136,3 @@
     border-style: dashed;
     border-color: black;
 }
-
