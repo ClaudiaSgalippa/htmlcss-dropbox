@@ -8,6 +8,8 @@
 
 /*Header*/
 
+/*Main Header*/
+
 #main-header {
     border-style: dashed;
     border-color: black;
@@ -16,8 +18,6 @@
     justify-content: space-between;
     min-width: fit-content;
 }
-
-
 
 #left-head {
     display: flex;
@@ -60,5 +60,56 @@
     align-items:center;
     margin: 24px 15px;
     width: 7%;
+}
+
+/*Jumbotron*/
+
+#jumbotron {
+    height: 600px;
+    background-color: #B4D0E6;
+    border-style: dashed;
+    border-color: black;
+}
+
+.main-info {
+    border-style: dashed;
+    border-color: black;
+    margin-left: 325px;
+    margin-top: 100px;
+    height: 200px;
+    width: 56%;
+}
+
+.container-info {
+    display: flex;
+    border-style: dashed;
+    border-color: black;
+    margin-left: 325px;
+    height: 297px;
+    width: 56%;
+}
+
+.p-info {
+    border-style: dashed;
+    border-color: rgb(128, 62, 117);
+    height: 297px;
+    width: 35%;
+}
+
+.jumbo-img {
+    border-style: dashed;
+    border-color: rgb(128, 62, 117);
+    height: 370px;
+    width: 65%;
+}
+
+/*Body*/
+
+/*1° sezione*/
+
+#first-slide {
+    height: 1500px;
+    border-style: dashed;
+    border-color: black;
 }
 
