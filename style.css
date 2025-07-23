@@ -62,6 +62,10 @@
     width: 7%;
 }
 
+.start-button {
+
+}
+
 /*Jumbotron*/
 
 #jumbotron {
@@ -96,7 +100,7 @@
     width: 35%;
 }
 
-.slide1-info1 {
+.jumbo-info1 {
     border-style: dashed;
     border-color: black;
     height: 40%;
@@ -108,7 +112,7 @@
     height: 15%;
 }
 
-.slide1-info2 {
+.jumbo-info2 {
     border-style: dashed;
     border-color: black;
     height: 15%;
@@ -138,3 +142,46 @@
     border-color: black;
 }
 
+.body-first-slide {
+
+}
+
+.head-first-slide {
+
+}
+
+.billing {
+    display: flex;
+}
+
+.piano-business {
+
+}
+
+.col-first-slide {
+
+}
+
+.head-col-first-slide {
+
+}
+
+.body-col-first-slide {
+
+}
+
+.button-trial {
+    
+}
+
+.footer-first-slide {
+
+}
+
+.team {
+
+}
+
+.enterprise {
+    display: flex;
+}
