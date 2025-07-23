@@ -3,4 +3,62 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
 }
+
+/*Header*/
+
+#main-header {
+    border-style: dashed;
+    border-color: black;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    min-width: fit-content;
+}
+
+
+
+#left-head {
+    display: flex;
+    border-style: dashed;
+    border-color: black;
+    width: 50%;
+}
+
+.logo-dropbox{
+    align-items:center;
+    margin: 24px 15px;
+    width: 16%;
+}
+
+.info-left {
+    display: flex;
+    border-style: dashed;
+    border-color: black;
+    gap: 20px;
+    width: 84%;
+}
+
+#right-head {
+    border-style: dashed;
+    border-color: black;
+    display: flex;
+    width: 50%;
+}
+
+.info-right {
+    display: flex;
+    border-style: dashed;
+    border-color: black;
+    gap: 20px;
+    width: 93%;
+    justify-content: flex-end;
+}
+
+.start {
+    align-items:center;
+    margin: 24px 15px;
+    width: 7%;
+}
+
