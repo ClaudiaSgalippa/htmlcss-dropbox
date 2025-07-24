@@ -146,18 +146,20 @@ img {
 /*1° sezione*/
 
 #first-slide {
-    height: 1174px;
+    height: 1500px;
     border-style: dashed;
     border-color: black;
 }
 
-/*hr {
-    color: grey;
-    padding-top: 20px;
-}*/
+.hr-fake {
+    border-bottom: solid;
+    border-color: lightgrey;
+    height: 15%;
+    width: 100%;
+}
 
 .body-first-slide {
-    height: 1021px;
+    height: 1020px;
     border-style: dashed;
     border-color: blue;
     margin-block: 150px;
@@ -410,7 +412,7 @@ footer {
 
 .linea {
     border-bottom: solid;
-    border-color: grey;
+    border-color: white;
     height: 15%;
     width: 15%;
 }
