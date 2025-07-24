@@ -382,22 +382,48 @@ img {
 
 /*Footer*/
 
-#footer {
-    height: 500px;
+footer {
+    height: 560px;
     background-color: black;
+    color: white;
 }
 
-.footer-container {
+#footer-container {
+    border-style: dashed;
+    border-color: white;
+    height: 100%;
+}
+
+.main-footer {
+    border-style: dashed;
+    border-color: white;
+    height: 75%;
+    margin-inline: 20%;
+    margin-block: 90px;
+}
+
+.row-footer {
     display: flex;
     border-style: dashed;
     border-color: white;
-}
-.row-footer {
-    border-style: dashed;
-    border-color: white;
+    height: 70%;
 }
 
 .col-footer {
     border-style: dashed;
     border-color: white;
+    width: calc(100% / 5);
+    color
+}
+
+.linea {
+    border-style: dashed;
+    border-color: white;
+    height: 15%;
+}
+
+.language {
+    border-style: dashed;
+    border-color: white;
+    height: 15%;
 }
