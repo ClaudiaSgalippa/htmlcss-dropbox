@@ -267,7 +267,7 @@ img {
 
 .body-second-slide {
     display: flex;
-    height: 70%;
+    height: 63%;
     border-style: dashed;
     border-color: blue;
     margin-block: 150px;
@@ -279,6 +279,7 @@ img {
     border-style: dashed;
     border-color: black;
     width: 65%;
+    height: 457px;
 }
 
 .info-second-slide {
@@ -286,5 +287,57 @@ img {
     border-color: black;
     width: 31%;
     height: 55%;
-    margin-top: 7%;
+    margin-top: 5%;
 }
+
+/*3° sezione*/
+
+#third-slide {
+    display: flex;
+    height: 1300px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.business-choice {
+    height: 900px;
+    width: 50%;
+    border-style: dashed;
+    border-color: blue;
+    margin-block: 150px;
+    margin-inline: 25%;
+}
+
+.head-third-slide {
+    border-style: dashed;
+    border-color: black;
+    background-color: aquamarine;
+    height: 10%;
+}
+
+.body-third-slide {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-third-slide {
+    border-style: dashed;
+    border-color: black;
+    background-color: aquamarine;
+    width: calc(100% / 3);
+    height: 400px;
+}
+
+/*4° sezione*/
+
+#fourth-slide {
+    height: 800px;
+    border-style: dashed;
+    border-color: black;
+}
+
+
