@@ -290,12 +290,22 @@ img {
     width: 31%;
     height: 55%;
     margin-top: 5%;
+    align-content: space-between;
 }
 
 .header-second-slide {
-    height: 16%;
-    align-content: center;
+
 }
+
+.paragraph-second-slide {
+
+}
+
+.find-a-partner {
+
+}
+
+
 
 /*3° sezione*/
 
