@@ -383,47 +383,46 @@ img {
 /*Footer*/
 
 footer {
-    height: 560px;
+    height: 600px;
     background-color: black;
     color: white;
 }
 
 #footer-container {
-    border-style: dashed;
-    border-color: white;
     height: 100%;
 }
 
 .main-footer {
-    border-style: dashed;
-    border-color: white;
     height: 75%;
     margin-inline: 20%;
-    margin-block: 90px;
+    padding-top: 80px;
 }
 
 .row-footer {
     display: flex;
-    border-style: dashed;
-    border-color: white;
     height: 70%;
 }
 
 .col-footer {
-    border-style: dashed;
-    border-color: white;
-    width: calc(100% / 5);
-    color
+    width: 20%;
+    line-height: 36px;
+}
+
+.first-li {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom:23px;
 }
 
 .linea {
-    border-style: dashed;
-    border-color: white;
+    border-bottom: solid;
+    border-color: grey;
     height: 15%;
+    width: 15%;
 }
 
 .language {
-    border-style: dashed;
-    border-color: white;
     height: 15%;
+    align-content: end;
+    color:grey;
 }
