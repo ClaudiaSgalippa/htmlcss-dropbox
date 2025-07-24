@@ -319,7 +319,7 @@ img {
     width: 100%;
 }
 
-.row {
+.row-third-slide {
     display: flex;
     flex-wrap: wrap;
 }
@@ -378,4 +378,26 @@ img {
     border-style: dashed;
     border-color: black;
     height: 55%;
+}
+
+/*Footer*/
+
+#footer {
+    height: 500px;
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    border-style: dashed;
+    border-color: white;
+}
+.row-footer {
+    border-style: dashed;
+    border-color: white;
+}
+
+.col-footer {
+    border-style: dashed;
+    border-color: white;
 }
