@@ -6,6 +6,15 @@
     list-style-type: none;
 }
 
+/*Utility*/
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /*Header*/
 
 /*Main Header*/
@@ -62,9 +71,9 @@
     width: 7%;
 }
 
-.start-button {
+/*.start-button {
 
-}
+}*/
 
 /*Jumbotron*/
 
@@ -89,8 +98,8 @@
     border-style: dashed;
     border-color: black;
     margin-left: 325px;
-    height: 297px;
-    width: 56%;
+    height: 299px;
+    width: 67%;
 }
 
 .p-info {
@@ -205,9 +214,9 @@
     height: 95%;
 }
 
-.button-trial {
+/*.button-trial {
 
-}
+}*/
 
 .footer-first-slide {
     border-style: dashed;
@@ -215,6 +224,7 @@
     background-color: white;
     height: 25%;
     padding-top: 30px;
+    padding-inline: 2%;
 }
 
 .team {
@@ -247,3 +257,34 @@
     width: 30%;
 }
 
+/*2° sezione*/
+
+#second-slide {
+    height: 800px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.body-second-slide {
+    display: flex;
+    height: 70%;
+    border-style: dashed;
+    border-color: blue;
+    margin-block: 150px;
+    margin-inline: 25%;
+    padding: 1%;
+}
+
+.img-second-slide {
+    border-style: dashed;
+    border-color: black;
+    width: 65%;
+}
+
+.info-second-slide {
+    border-style: dashed;
+    border-color: black;
+    width: 31%;
+    height: 55%;
+    margin-top: 7%;
+}
