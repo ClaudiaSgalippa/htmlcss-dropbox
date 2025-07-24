@@ -300,7 +300,7 @@ img {
 }
 
 .business-choice {
-    height: 900px;
+    height: 1010px;
     width: 50%;
     border-style: dashed;
     border-color: blue;
@@ -353,9 +353,29 @@ img {
 /*4° sezione*/
 
 #fourth-slide {
-    height: 800px;
+    height: 400px;
     border-style: dashed;
     border-color: black;
 }
 
+.body-fourth-slide {
+    height: 80%;
+    border-style: dashed;
+    border-color: black;
+    margin-block: 20px;
+    margin-inline: 25%;
+    padding-block: 100px;
+}
 
+.how-many-teams {
+    border-style: dashed;
+    border-color: black;
+    height: 70%;
+    width: 55%;
+}
+
+.link {
+    border-style: dashed;
+    border-color: black;
+    height: 55%;
+}
