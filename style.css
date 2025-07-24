@@ -329,7 +329,25 @@ img {
     border-color: black;
     background-color: aquamarine;
     width: calc(100% / 3);
-    height: 400px;
+    height: 450px;
+}
+
+.img-third-slide {
+    height: 51%;
+}
+
+.header-third-slide {
+    width: 100%;
+    height: 16%;
+    border-style: dashed;
+    border-color: black;
+}
+
+.info-third-slide {
+    width: 100%;
+    height: 34%;
+    border-style: dashed;
+    border-color: black;
 }
 
 /*4° sezione*/
