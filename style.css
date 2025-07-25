@@ -28,6 +28,10 @@ img {
     min-width: fit-content;
 }
 
+#logo-dropbox {
+    min-height: fit-content;
+}
+
 #left-head {
     display: flex;
     border-style: dashed;
@@ -47,6 +51,10 @@ img {
     border-color: black;
     gap: 20px;
     width: 84%;
+}
+
+.ul-head {
+    display: flex;
 }
 
 #right-head {
@@ -292,20 +300,6 @@ img {
     margin-top: 5%;
     align-content: space-between;
 }
-
-.header-second-slide {
-
-}
-
-.paragraph-second-slide {
-
-}
-
-.find-a-partner {
-
-}
-
-
 
 /*3° sezione*/
 
