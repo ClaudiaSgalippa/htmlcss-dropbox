@@ -269,36 +269,38 @@ img {
 
 /*2° sezione*/
 
-#second-slide {
-    height: 800px;
-    border-style: dashed;
-    border-color: black;
-}
-
 .body-second-slide {
     display: flex;
-    height: 63%;
-    border-style: dashed;
-    border-color: blue;
     margin-block: 150px;
     margin-inline: 25%;
     padding: 1%;
 }
 
 .img-second-slide {
-    border-style: dashed;
-    border-color: black;
     width: 65%;
     height: 457px;
 }
 
 .info-second-slide {
-    border-style: dashed;
-    border-color: black;
     width: 31%;
-    height: 55%;
     margin-top: 5%;
-    align-content: space-between;
+}
+
+.header-second-slide {
+    font-size: 23px;
+}
+
+.paragraph-second-slide {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.find-a-partner {
+    margin-top: 15px;
+    padding: 8px 13px;
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: white;
 }
 
 /*3° sezione*/
