@@ -20,16 +20,13 @@ img {
 /*Main Header*/
 
 #main-header {
+    position: fixed;
+    z-index: 200;
     border-style: dashed;
     border-color: black;
     display: flex;
-    height: 80px;
-    justify-content: space-between;
-    min-width: fit-content;
-}
-
-#logo-dropbox {
-    min-height: fit-content;
+    background-color: white;
+    width: 100%;
 }
 
 #left-head {
@@ -39,7 +36,7 @@ img {
     width: 50%;
 }
 
-.logo-dropbox{
+.logo {
     align-items:center;
     margin: 24px 15px;
     width: 16%;
@@ -51,6 +48,7 @@ img {
     border-color: black;
     gap: 20px;
     width: 84%;
+    align-items:center;
 }
 
 .ul-head {
@@ -71,12 +69,18 @@ img {
     gap: 20px;
     width: 93%;
     justify-content: flex-end;
+    align-items:center;
 }
 
 .start {
     align-items:center;
     margin: 24px 15px;
     width: 7%;
+}
+
+#no-decoration {
+    color: black;
+    text-decoration: none;
 }
 
 /*.start-button {
